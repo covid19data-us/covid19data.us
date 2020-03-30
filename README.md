@@ -40,4 +40,5 @@ LINKS:
 
 -- www -- defaults to grafana for now [needs contributions]
 
+[](images/smaller_gcp_setup.png)
 Credit to Johns Hopkins for giving us the data! Credit to the covidtracker folks - keeping an eye on the work there
