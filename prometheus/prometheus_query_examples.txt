@@ -1,0 +1,15 @@
+Prometheus Query Examples:
+
+Summarize US Confirmed Case Data by state
+sum(confirmed{country="US"}) by (state))
+
+Top 10 US Confirmed & Deaths - States
+topk(10, sum(confirmed{country="US"}) by (state))
+topk(10, sum(deaths{country="US"}) by (state))
+
+Daily Change(s)
+sum(confirmed{country="US"} - confirmed{country="US"} offset 1d)
+sum(deaths{country="US"} - deaths{country="US"} offset 1d)
+
+
+

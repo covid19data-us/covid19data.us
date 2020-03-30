@@ -1,0 +1,17 @@
+➜  python python example_prom.py http://api.covid19data.us "sum(deaths)"
+{
+    "data": {
+        "result": [
+            {
+                "metric": {}, 
+                "value": [
+                    1585570754.122, 
+                    "33925"
+                ]
+            }
+        ], 
+        "resultType": "vector"
+    }, 
+    "status": "success"
+}
+➜  python 
