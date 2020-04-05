@@ -1,0 +1,88 @@
+{
+  "datasource": null,
+  "cacheTimeout": null,
+  "colorBackground": true,
+  "colorValue": false,
+  "colors": [
+    "rgb(36, 36, 38)",
+    "rgb(36, 36, 38)",
+    "#d44a3a"
+  ],
+  "decimals": null,
+  "format": "percent",
+  "gauge": {
+    "maxValue": 100,
+    "minValue": 0,
+    "show": false,
+    "thresholdLabels": false,
+    "thresholdMarkers": true
+  },
+  "gridPos": {
+    "h": 3,
+    "w": 4,
+    "x": 20,
+    "y": 5
+  },
+  "id": 55,
+  "interval": null,
+  "links": [],
+  "mappingType": 1,
+  "mappingTypes": [
+    {
+      "name": "value to text",
+      "value": 1
+    },
+    {
+      "name": "range to text",
+      "value": 2
+    }
+  ],
+  "maxDataPoints": 100,
+  "nullPointMode": "connected",
+  "nullText": null,
+  "pluginVersion": "6.7.1",
+  "postfix": "",
+  "postfixFontSize": "70%",
+  "prefix": "",
+  "prefixFontSize": "100%",
+  "rangeMaps": [
+    {
+      "from": "null",
+      "text": "N/A",
+      "to": "null"
+    }
+  ],
+  "sparkline": {
+    "fillColor": "rgba(31, 118, 189, 0.18)",
+    "full": false,
+    "lineColor": "rgb(31, 120, 193)",
+    "show": false,
+    "ymax": null,
+    "ymin": null
+  },
+  "tableColumn": "",
+  "targets": [
+    {
+      "expr": "sum(deaths{country=\"US\"}) / sum(confirmed{country=\"US\"}) * 100",
+      "instant": true,
+      "interval": "",
+      "legendFormat": "",
+      "refId": "A"
+    }
+  ],
+  "thresholds": "",
+  "timeFrom": null,
+  "timeShift": null,
+  "title": "CFR (Fatality Rate)",
+  "transparent": true,
+  "type": "singlestat",
+  "valueFontSize": "70%",
+  "valueMaps": [
+    {
+      "op": "=",
+      "text": "N/A",
+      "value": "null"
+    }
+  ],
+  "valueName": "avg"
+}
