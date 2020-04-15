@@ -25,10 +25,6 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 ## Create your own Grafana without DataSource
 
 ```sh
-(⎈ |star:lord) galaxy ] ☘  docker run -d \
--p 3000:3000 \
---name=grafana \
--e "GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-worldmap-panel" \
-grafana/grafana
+(⎈ |star:lord) galaxy ] ☘  docker run -d -p 3000:3000 --name=grafana  -e "GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-worldmap-panel" grafana/grafana
 (⎈ |star:lord) galaxy ] ☘ 
 ```
