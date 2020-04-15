@@ -65,5 +65,5 @@ Make the time series data extremely easy for others to use, pull, chart.
 
 **Footnotes:**
 
-1. Credit to _*Johns Hopkins_* for giving us the data
-1. Credit to the _*covidtracker folks*_ for keeping an eye on the work there
+1. Credit to **Johns Hopkins** for giving us the data
+1. Credit to the **covidtracker folks** for keeping an eye on the work there
