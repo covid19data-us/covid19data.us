@@ -2,14 +2,14 @@
 
 ## Create your own Grafana with DataSource
 
-1. Create the docker image using Dockerfile
+- Create the docker image using Dockerfile
 
 ```sh
-(⎈ |star:lord) galaxy ] ☘ docker build -t grafana:mine . docker build -t grafana:mine .
+(⎈ |star:lord) galaxy ] ☘ docker build -t grafana:mine .
 (⎈ |star:lord) galaxy ] ☘ 
 ```
 
-1. Start the docker container
+- Start the docker container
 
 ```sh
 (⎈ |star:lord) galaxy ] ☘ docker run -d -p 3000:3000 --name=grafana-mine grafana:mine
