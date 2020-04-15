@@ -59,7 +59,7 @@ Make the time series data extremely easy for others to use, pull, chart.
 - [grafana](graphs.covid19data.us) Grafana dashboards [share, embed, copy:paste, etc.]
 - [dev.covid19data.us](dev.covid19data.us) Needs contributions
 - [news.covid19data.us](news.covid19data.us) Transitioning [ninjavirus](https://ninjavirus.com) i.e. US centric WP site
-- www - defaults to grafana for now - Needs contributions
+- [www](graphs.covid19data.us) - defaults to [grafana](graphs.covid19data.us) for now - Needs contributions
 
 ![](images/smaller_gcp_setup.png)
 
