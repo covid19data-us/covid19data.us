@@ -55,11 +55,11 @@ Make the time series data extremely easy for others to use, pull, chart.
 
 ## Useful Links
 
-- [prometheus-TSDB](api.covid19data.us) with JHU covid data [nightly pulls]
-- [grafana](graphs.covid19data.us) Grafana dashboards [share, embed, copy:paste, etc.]
-- [dev.covid19data.us](dev.covid19data.us) Needs contributions
-- [news.covid19data.us](news.covid19data.us) Transitioning [ninjavirus](https://ninjavirus.com) i.e. US centric WP site
-- [www](graphs.covid19data.us) - defaults to [grafana](graphs.covid19data.us) for now - Needs contributions
+- [prometheus-TSDB](http://api.covid19data.us) with JHU covid data [nightly pulls]
+- [grafana](http://graphs.covid19data.us) Grafana dashboards [share, embed, copy:paste, etc.]
+- [dev.covid19data.us](http://dev.covid19data.us) Needs contributions
+- [news.covid19data.us](http://news.covid19data.us) Transitioning [ninjavirus](https://ninjavirus.com) i.e. US centric WP site
+- [www](http://graphs.covid19data.us) - defaults to [grafana](http://graphs.covid19data.us) for now - Needs contributions
 
 ![](images/smaller_gcp_setup.png)
 
