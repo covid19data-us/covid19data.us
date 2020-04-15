@@ -30,7 +30,7 @@ Make the time series data extremely easy for others to use, pull, chart.
 - That resulted in - organizing news so I could stay up to speed - traffic picked up and I needed some content checkers because the search is challenged and news agencies are less than accurate. 
 - I currently have 3 people in PH checking/categorizing/posting content
 - [covid19data.com](https://covid19data.com)
-- In March, US became a topic and I needed a more US centric site. 
+- In March, US became a topic and I needed a more US :us: centric site. 
 - I got some inspiration from a few medical specific sites and someone coined the phrase: Ninja Virus.
 - [US Centric](https://ninjavirus.com)
 - These are Wordpress sites hosted on Google - with RSS crawlers, Twitter Crawler, URL Crawler, etc. 
@@ -63,4 +63,7 @@ Make the time series data extremely easy for others to use, pull, chart.
 
 ![](images/smaller_gcp_setup.png)
 
-Credit to Johns Hopkins for giving us the data! Credit to the covidtracker folks - keeping an eye on the work there
+**Footnotes:**
+
+1. Credit to _Johns Hopkins_ for giving us the data! 
+1. Credit to the _covidtracker folks_ for keeping an eye on the work there
