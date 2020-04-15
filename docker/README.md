@@ -18,7 +18,7 @@
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                    NAMES
 299eef92be81        grafana:mine        "/run.sh"           5 minutes ago       Up 5 minutes        0.0.0.0:3000->3000/tcp   grafana-mine
 (⎈ |star:lord) galaxy ] ☘ 
-(⎈ |star:lord) galaxy ] ☘ open -a "Google Chrome" "http://localhost:3001/"
+(⎈ |star:lord) galaxy ] ☘ open -a "Google Chrome" "http://localhost:3000/"
 (⎈ |star:lord) galaxy ] ☘ 
 ```
 
