@@ -1,27 +1,51 @@
 # covid19data.us
 
-all things related to simplification, aggregation, viewing, charting, managing covid19 data
+Everything related to Covid-19 data
 
-covid19data.us
-software and data aggregation for the public - examples, use_cases, etc.
+- Simplification
+- Aggregation
+- Viewing
+- Charting
+- Managing
 
-Goal of project: Make the time series data extremely easy for others to use, pull, chart, etc.
+# Purpose
 
-History: on January 23, 2020 - I started a world news aggregation site, after members of my remote teams in JPMC (APAC) began discussing the topic of a new coronavirus. Since I am proudly an x-Googler, I had a few data questions from some folks which was verified. My x-Military contacts also confirmed movement on the topic. That resulted in - organizing news so I could stay up to speed - traffic picked up and I needed some content checkers because the search is challenged and news agencies are less than accurate. -- I currently have 3 people in PH checking/categorizing/posting content
+Software and data aggregation for
 
-Here: https://covid19data.com
+- Public 
+- Examples
+- Use-Cases 
 
-in March the US became a topic and I needed a more US centric site. I got some inspiration from a few medical specific sites and someone coined the phrase: Ninja Virus -- so...
+## Goal of project
 
-Here: https://ninjavirus.com. -- US Centric
+Make the time series data extremely easy for others to use, pull, chart.
 
-These are Wordpress sites hosted on Google - with RSS crawlers, Twitter Crawler, URL Crawler, etc. -- uggh@CMS@wordpress -- but I needed something click:fast [not my day job].
+## History
 
-Now we are here today: -- a few have contributed and probably this should merge into covidtracker project. Over the weekend i opened up another GCP project and decided with the help of a couple of others to pull JHU data into Prometheus and expose the endpoint and do a little Grafana work. -- Add the datasource in Grafana (whosoever will).
+### [1.0.0] - 23-Jan-2020
 
-Anyway...
+- I started a world news aggregation site, after members of my remote teams in JPMC (APAC)  began discussing the topic of a new coronavirus. 
+- Since I am proudly an x-Googler, I had a few data questions from some folks which was verified. 
+- My x-Military contacts also confirmed movement on the topic. 
+- That resulted in - organizing news so I could stay up to speed - traffic picked up and I needed some content checkers because the search is challenged and news agencies are less than accurate. 
+- I currently have 3 people in PH checking/categorizing/posting content
+- [covid19data.com](https://covid19data.com)
+- In March, US became a topic and I needed a more US centric site. 
+- I got some inspiration from a few medical specific sites and someone coined the phrase: Ninja Virus.
+- [US Centric](https://ninjavirus.com)
+- These are Wordpress sites hosted on Google - with RSS crawlers, Twitter Crawler, URL Crawler, etc. 
+- uggh@CMS@wordpress 
+- I needed something click:fast [not my day job]
 
---- Contribute if you believe ---
+## Current Situation
+
+- A few have contributed and probably this should merge into covidtracker project. 
+- Over the weekend I opened up another GCP project and decided with the help of a couple of others to pull JHU data into Prometheus and expose the endpoint and do a little Grafana work. 
+- Add the datasource in Grafana (whosoever will)
+
+
+
+## --- Contribute if you believe ---
 
 "We should not hold data hostage"
 
@@ -29,17 +53,13 @@ Anyway...
 
 "A language is a choice, whatever gets it done i.e. Polyglot" - we all have our favorites
 
-LINKS:
+## Useful LINKS:
 
--- api.covid19data.us --> prometheus [TSDB] with JHU covid data [nightly pulls]
-
--- graphs.covid19data.us --> grafana dashboards [share, embed, copy:paste, etc.]
-
--- dev.covid19data.us --> [needs contributions]
-
--- news.covid19data.us --> transitioning https://ninjavirus.com [US centric WP site]
-
--- www -- defaults to grafana for now [needs contributions]
+- [prometheus-TSDB](api.covid19data.us) with JHU covid data [nightly pulls]
+- [grafana](graphs.covid19data.us) Grafana dashboards [share, embed, copy:paste, etc.]
+- [dev.covid19data.us](dev.covid19data.us) Needs contributions
+- [news.covid19data.us](news.covid19data.us) Transitioning [ninjavirus](https://ninjavirus.com) i.e. US centric WP site
+- www - defaults to grafana for now - Needs contributions
 
 ![](images/smaller_gcp_setup.png)
 
