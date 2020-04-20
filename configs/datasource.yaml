@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+- name: Prometheus
+  type: prometheus
+  orgId: 1
+  url: http://api.covid19data.us/
+  editable: true
+  access: proxy
+  isDefault: true
+  version: 1
